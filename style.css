@@ -1,0 +1,161 @@
+    body {
+        padding: 30px;
+        position: relative;
+    }
+    
+    .heading {
+        height: 95vh;
+        background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 131, 0.8)), url('tic-1.jpg');
+        background-position: fixed;
+        background-size: cover;
+    }
+    
+    .active {
+        font-weight: bold;
+    }
+    
+    .circle {
+        position: absolute;
+        background-color: red;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+    }
+    
+    .btn:link,
+    .btn:visited {
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 15px 40px;
+        border-radius: 50%;
+        transition: all .2s;
+        backface-visibility: hidden;
+        outline: none;
+    }
+    
+    .btn:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+        outline: none;
+    }
+    
+    .btn:active {
+        transform: translateY(-1px);
+        box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+        outline: none;
+    }
+    
+    .btn {
+        background-color: #fff;
+        color: #777;
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+        border-radius: 50%;
+        outline: none;
+    }
+    
+    table {
+        position: absolute;
+        margin-left: 33%;
+        margin-top: 15%;
+    }
+    
+    .pp {
+        position: absolute;
+        font-size: 50px;
+        letter-spacing: 4;
+        text-transform: uppercase;
+        margin-left: 33%;
+        margin-top: 2%;
+        animation: moveInTop 1s ease-out;
+    }
+    
+    @keyframes moveInTop {
+        0% {
+            opacity: 0;
+            transform: translateY(-100px);
+        }
+        80% {
+            transform: translateY(10px);
+        }
+        100% {
+            opacity: 1;
+            transform: translate(0);
+        }
+    }
+    
+    @keyframes moveInLeft {
+        0% {
+            opacity: 0;
+            transform: translateX(-100px);
+        }
+        80% {
+            transform: translateX(10px);
+        }
+        100% {
+            opacity: 1;
+            transform: translate(0);
+        }
+    }
+    
+    .player-0 {
+        position: absolute;
+        left: 36%;
+        top: 23%;
+        font-size: 30px;
+        text-transform: uppercase;
+    }
+    
+    .player-1 {
+        position: absolute;
+        left: 54%;
+        top: 23%;
+        font-size: 30px;
+        text-transform: uppercase;
+    }
+    
+    .player-name {
+        float: left;
+    }
+    
+    .btn-new {
+        position: absolute;
+        color: #fff;
+        background: none;
+        border: none;
+        font-size: 20px;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: all 0.3s;
+        outline: none;
+        left: 43%;
+        top: 80%;
+        letter-spacing: 1.7;
+        animation: moveInLeft 1s ease-out;
+    }
+    
+    .btn-new:hover i {
+        margin-right: 20px;
+        transition: all 0.3s ease-out;
+    }
+    
+    .btn:focus {
+        outline: none;
+    }
+    
+    .winner {
+        font-weight: 300;
+        color: rgb(41, 68, 223);
+    }
+    
+    i {
+        color: green;
+        display: inline-block;
+        margin-right: 15px;
+        font-size: 32px;
+        line-height: 1;
+        vertical-align: text-top;
+        margin-top: -4px;
+        transition: margin 0.3s;
+    }
