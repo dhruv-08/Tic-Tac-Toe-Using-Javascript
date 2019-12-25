@@ -68,7 +68,7 @@
         text-transform: uppercase;
         margin-left: 33%;
         margin-top: 2%;
-        animation: moveInTop 1s ease-out;
+        animation: moveInTop 1s ease-out 2s;
     }
     
     @keyframes moveInTop {
@@ -132,7 +132,7 @@
         left: 43%;
         top: 80%;
         letter-spacing: 1.7;
-        animation: moveInLeft 1s ease-out;
+        animation: moveInLeft 1s ease-out 2s;
     }
     
     .btn-new:hover i {

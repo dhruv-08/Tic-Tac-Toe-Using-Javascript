@@ -531,11 +531,12 @@ document.querySelector('.bn9').addEventListener('click', function() {
         }
     }
 });
+
 document.querySelector('.btn-new').addEventListener('click', news);
 
 function news() {
-    var count = 0;
-    var a1 = 1,
+    count = 0;
+    a1 = 1,
         a2 = 2,
         a3 = 3,
         a4 = 4,
@@ -544,16 +545,16 @@ function news() {
         a7 = 7,
         a8 = 8,
         a9 = 9;
-    var gamePlayer = true;
-    document.querySelector('.bn1').textContent = null;
-    document.querySelector('.bn2').textContent = null;
-    document.querySelector('.bn3').textContent = null;
-    document.querySelector('.bn4').textContent = null;
-    document.querySelector('.bn5').textContent = null;
-    document.querySelector('.bn6').textContent = null;
-    document.querySelector('.bn7').textContent = null;
-    document.querySelector('.bn8').textContent = null;
-    document.querySelector('.bn9').textContent = null;
+    gamePlayer = true;
+    document.querySelector('.bn1').textContent = "";
+    document.querySelector('.bn2').textContent = "";
+    document.querySelector('.bn3').textContent = "";
+    document.querySelector('.bn4').textContent = "";
+    document.querySelector('.bn5').textContent = "";
+    document.querySelector('.bn6').textContent = "";
+    document.querySelector('.bn7').textContent = "";
+    document.querySelector('.bn8').textContent = "";
+    document.querySelector('.bn9').textContent = "";
     var p1 = prompt('Player 1 name ?');
     var p2 = prompt('Player 2 name ?');
     while (p1 == p2) {
@@ -569,5 +570,4 @@ function news() {
     document.querySelector('.player-1').classList.remove('winner');
     document.querySelector('.player-0').classList.add('active');
     document.querySelector('.player-1').classList.remove('active');
-
 }
