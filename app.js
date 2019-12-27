@@ -48,6 +48,10 @@ document.querySelector('.bn1').addEventListener('click', function() {
                     gamePlayer = false;
                 }
             }
+            if (number == 'O' || number == 'X') {
+                document.querySelector('.bn1').classList.add('btn-shake');
+            }
+
         } else if (count % 2 != 0) {
             var number = document.querySelector('.bn1').textContent;
             if (number != 'O' && number != 'X') {
@@ -76,6 +80,10 @@ document.querySelector('.bn1').addEventListener('click', function() {
                     gamePlayer = false;
                 }
             }
+            if (number == 'O' || number == 'X') {
+                document.querySelector('.bn1').classList.add('btn-shake');
+            }
+
         }
     }
 });
@@ -102,6 +110,8 @@ document.querySelector('.bn2').addEventListener('click', function() {
                     document.querySelector('.player-1').classList.remove('active');
                     gamePlayer = false;
                 }
+            } else if (number == 'O' || number == 'X') {
+                document.querySelector('.bn2').classList.add('btn-shake');
             }
         } else if (count % 2 != 0) {
             var number = document.querySelector('.bn2').textContent;
@@ -124,6 +134,8 @@ document.querySelector('.bn2').addEventListener('click', function() {
                     document.querySelector('.player-1').classList.remove('active');
                     gamePlayer = false;
                 }
+            } else if (number == 'O' || number == 'X') {
+                document.querySelector('.bn2').classList.add('btn-shake');
             }
         }
     }
@@ -157,6 +169,8 @@ document.querySelector('.bn3').addEventListener('click', function() {
                     document.querySelector('.player-1').classList.remove('active');
                     gamePlayer = false;
                 }
+            } else if (number == 'O' || number == 'X') {
+                document.querySelector('.bn3').classList.add('btn-shake');
             }
         } else if (count % 2 != 0) {
             var number = document.querySelector('.bn3').textContent;
@@ -185,6 +199,8 @@ document.querySelector('.bn3').addEventListener('click', function() {
                     document.querySelector('.player-1').classList.remove('active');
                     gamePlayer = false;
                 }
+            } else if (number == 'O' || number == 'X') {
+                document.querySelector('.bn3').classList.add('btn-shake');
             }
         }
     }
@@ -212,6 +228,8 @@ document.querySelector('.bn4').addEventListener('click', function() {
                     document.querySelector('.player-1').classList.remove('active');
                     gamePlayer = false;
                 }
+            } else if (number == 'O' || number == 'X') {
+                document.querySelector('.bn4').classList.add('btn-shake');
             }
         } else if (count % 2 != 0) {
             var number = document.querySelector('.bn4').textContent;
@@ -234,6 +252,8 @@ document.querySelector('.bn4').addEventListener('click', function() {
                     document.querySelector('.player-1').classList.remove('active');
                     gamePlayer = false;
                 }
+            } else if (number == 'O' || number == 'X') {
+                document.querySelector('.bn4').classList.add('btn-shake');
             }
         }
     }
@@ -273,6 +293,8 @@ document.querySelector('.bn5').addEventListener('click', function() {
                     document.querySelector('.player-1').classList.remove('active');
                     gamePlayer = false;
                 }
+            } else if (number == 'O' || number == 'X') {
+                document.querySelector('.bn5').classList.add('btn-shake');
             }
         } else if (count % 2 != 0) {
             var number = document.querySelector('.bn5').textContent;
@@ -307,6 +329,8 @@ document.querySelector('.bn5').addEventListener('click', function() {
                     document.querySelector('.player-1').classList.remove('active');
                     gamePlayer = false;
                 }
+            } else if (number == 'O' || number == 'X') {
+                document.querySelector('.bn5').classList.add('btn-shake');
             }
         }
     }
@@ -334,6 +358,8 @@ document.querySelector('.bn6').addEventListener('click', function() {
                     document.querySelector('.player-1').classList.remove('active');
                     gamePlayer = false;
                 }
+            } else if (number == 'O' || number == 'X') {
+                document.querySelector('.bn6').classList.add('btn-shake');
             }
         } else if (count % 2 != 0) {
             var number = document.querySelector('.bn6').textContent;
@@ -356,6 +382,8 @@ document.querySelector('.bn6').addEventListener('click', function() {
                     document.querySelector('.player-1').classList.remove('active');
                     gamePlayer = false;
                 }
+            } else if (number == 'O' || number == 'X') {
+                document.querySelector('.bn6').classList.add('btn-shake');
             }
         }
     }
@@ -389,6 +417,8 @@ document.querySelector('.bn7').addEventListener('click', function() {
                     document.querySelector('.player-1').classList.remove('active');
                     gamePlayer = false;
                 }
+            } else if (number == 'O' || number == 'X') {
+                document.querySelector('.bn7').classList.add('btn-shake');
             }
         } else if (count % 2 != 0) {
             var number = document.querySelector('.bn7').textContent;
@@ -417,6 +447,8 @@ document.querySelector('.bn7').addEventListener('click', function() {
                     document.querySelector('.player-1').classList.remove('active');
                     gamePlayer = false;
                 }
+            } else if (number == 'O' || number == 'X') {
+                document.querySelector('.bn7').classList.add('btn-shake');
             }
         }
     }
@@ -444,6 +476,8 @@ document.querySelector('.bn8').addEventListener('click', function() {
                     document.querySelector('.player-1').classList.remove('active');
                     gamePlayer = false;
                 }
+            } else if (number == 'O' || number == 'X') {
+                document.querySelector('.bn8').classList.add('btn-shake');
             }
         } else if (count % 2 != 0) {
             var number = document.querySelector('.bn8').textContent;
@@ -466,6 +500,8 @@ document.querySelector('.bn8').addEventListener('click', function() {
                     document.querySelector('.player-1').classList.remove('active');
                     gamePlayer = false;
                 }
+            } else if (number == 'O' || number == 'X') {
+                document.querySelector('.bn8').classList.add('btn-shake');
             }
         }
     }
@@ -499,6 +535,8 @@ document.querySelector('.bn9').addEventListener('click', function() {
                     document.querySelector('.player-1').classList.remove('active');
                     gamePlayer = false;
                 }
+            } else if (number == 'O' || number == 'X') {
+                document.querySelector('.bn9').classList.add('btn-shake');
             }
         } else if (count % 2 != 0) {
             var number = document.querySelector('.bn9').textContent;
@@ -527,6 +565,8 @@ document.querySelector('.bn9').addEventListener('click', function() {
                     document.querySelector('.player-1').classList.remove('active');
                     gamePlayer = false;
                 }
+            } else if (number == 'O' || number == 'X') {
+                document.querySelector('.bn9').classList.add('btn-shake');
             }
         }
     }
