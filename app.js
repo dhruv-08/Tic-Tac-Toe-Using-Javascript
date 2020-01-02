@@ -15,7 +15,6 @@ while (p1 == p2) {
     alert('Both cannot have same name');
     p2 = prompt('Player 2 name ?');
 }
-
 document.querySelector('#name-0').textContent = p1;
 document.querySelector('#name-1').textContent = p2;
 document.querySelector('.bn1').addEventListener('click', function() {
@@ -47,10 +46,10 @@ document.querySelector('.bn1').addEventListener('click', function() {
                     document.querySelector('.player-1').classList.remove('active');
                     gamePlayer = false;
                 }
-            }
-            if (number == 'O' || number == 'X') {
+            } else if (number == 'O' || number == 'X') {
                 document.querySelector('.bn1').classList.add('btn-shake');
             }
+
 
         } else if (count % 2 != 0) {
             var number = document.querySelector('.bn1').textContent;
@@ -79,11 +78,9 @@ document.querySelector('.bn1').addEventListener('click', function() {
                     document.querySelector('.player-1').classList.remove('active');
                     gamePlayer = false;
                 }
-            }
-            if (number == 'O' || number == 'X') {
+            } else if (number == 'O' || number == 'X') {
                 document.querySelector('.bn1').classList.add('btn-shake');
             }
-
         }
     }
 });
@@ -571,7 +568,6 @@ document.querySelector('.bn9').addEventListener('click', function() {
         }
     }
 });
-
 document.querySelector('.btn-new').addEventListener('click', news);
 
 function news() {
