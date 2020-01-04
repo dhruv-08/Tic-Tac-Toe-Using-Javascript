@@ -49,8 +49,6 @@ document.querySelector('.bn1').addEventListener('click', function() {
             } else if (number == 'O' || number == 'X') {
                 document.querySelector('.bn1').classList.add('btn-shake');
             }
-
-
         } else if (count % 2 != 0) {
             var number = document.querySelector('.bn1').textContent;
             if (number != 'O' && number != 'X') {
@@ -606,4 +604,13 @@ function news() {
     document.querySelector('.player-1').classList.remove('winner');
     document.querySelector('.player-0').classList.add('active');
     document.querySelector('.player-1').classList.remove('active');
+    document.querySelector('.bn1').classList.remove('btn-shake');
+    document.querySelector('.bn2').classList.remove('btn-shake');
+    document.querySelector('.bn3').classList.remove('btn-shake');
+    document.querySelector('.bn4').classList.remove('btn-shake');
+    document.querySelector('.bn5').classList.remove('btn-shake');
+    document.querySelector('.bn6').classList.remove('btn-shake');
+    document.querySelector('.bn7').classList.remove('btn-shake');
+    document.querySelector('.bn8').classList.remove('btn-shake');
+    document.querySelector('.bn9').classList.remove('btn-shake');
 }
